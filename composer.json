@@ -1,0 +1,29 @@
+{
+    "name": "silmaril/ubi",
+    "description": "A thin, standards-based PHP wrapper around Ubiquiti's API",
+    "keywords": ["ubiquiti", "networking", "network", "ubi", "unifi"],
+    "license": "MIT",
+    "homepage": "https://github.com/taylordaughtry/ubi",
+    "support": {
+        "issues": "https://github.com/taylordaughtry/ubi/issues",
+        "source": "https://github.com/taylordaughtry/ubi"
+    },
+    "authors": [
+        {
+            "name": "Taylor Daughtry",
+            "email": "hello@taylordaughtry.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.11.2"
+    },
+    "autoload": {
+    	"psr-4": {
+    		"Silmaril\\Ubi\\": "src/"
+    	}
+    },
+    "minimum-stability": "dev"
+}
